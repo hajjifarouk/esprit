@@ -1,0 +1,35 @@
+{
+  "name": "esprit",
+  "version": "1.0.0",
+  "description": "esprit",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.14.0",
+    "express-session": "~1.14.1",
+    "morgan": "~1.7.0",
+    "nodemon": "^1.14.12",
+    "oracledb": "^2.0.15",
+    "passport": "~0.3.2",
+    "passport-local": "~1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hajjifarouk/esprit.git"
+  },
+  "keywords": [
+    "esprit"
+  ],
+  "author": "farouk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hajjifarouk/esprit/issues"
+  },
+  "homepage": "https://github.com/hajjifarouk/esprit#readme"
+}
